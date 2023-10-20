@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.box-PS5 {
+    display: inline-block;
+    border: 1px solid pink;
+    width: 400px;
+    height: 50px;
+}
+
+.text-PS5 {
+    text-align: center;
+    line-height: 50px;
+    font-size: 32px;
+}
+
+.box-khung {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid pink;
+    margin-top: 5px;
+    width: 400px;
+    height: 300px;
+}
+
+.box-hinh  {
+    background: url(./[PXPNG.COM]Ps5\ Official\ Console\ And\ Controller\ -\ 1824x1302.png) no-repeat;
+    background-size: 255px;
+    background-position: center;
+    width: 255px;
+    height: 255px;
+    border: 1px solid pink;
+}
+
+.box-new {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: url(./new-icon-27.jpg) no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid pink;
+    
+}
+
+.box-caiwtf {
+    position: absolute;
+    background: url(./394615061_343924484677204_1498432624157311310_n.png) no-repeat;
+    background-size: 70px;
+    background-position: center;
+
+    width: 60px;
+    height: 150px;
+    right: 5px;
+    bottom: 4px;
+    border: 1px solid pink;
+
+}
+
+.box-gia {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+    color: #868383; 
+    border: 1px solid pink;
+    width: 100px;
+    height: 40px;
+}
